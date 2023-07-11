@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/react-gh-pages/static/css/main.55662ccd.css",
-    "main.js": "/react-gh-pages/static/js/main.7a26413e.js",
-    "static/js/787.beea4300.chunk.js": "/react-gh-pages/static/js/787.beea4300.chunk.js",
-    "index.html": "/react-gh-pages/index.html",
-    "main.55662ccd.css.map": "/react-gh-pages/static/css/main.55662ccd.css.map",
-    "main.7a26413e.js.map": "/react-gh-pages/static/js/main.7a26413e.js.map",
-    "787.beea4300.chunk.js.map": "/react-gh-pages/static/js/787.beea4300.chunk.js.map"
+    "main.css": "/SmollWebsite/static/css/main.55662ccd.css",
+    "main.js": "/SmollWebsite/static/js/main.6f4b72a5.js",
+    "static/js/787.beea4300.chunk.js": "/SmollWebsite/static/js/787.beea4300.chunk.js",
+    "index.html": "/SmollWebsite/index.html",
+    "main.55662ccd.css.map": "/SmollWebsite/static/css/main.55662ccd.css.map",
+    "main.6f4b72a5.js.map": "/SmollWebsite/static/js/main.6f4b72a5.js.map",
+    "787.beea4300.chunk.js.map": "/SmollWebsite/static/js/787.beea4300.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.55662ccd.css",
-    "static/js/main.7a26413e.js"
+    "static/js/main.6f4b72a5.js"
   ]
 }
