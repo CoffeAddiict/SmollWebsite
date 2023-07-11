@@ -24,7 +24,7 @@ function App() {
                 const response = await axios.get('https://api.unsplash.com/search/photos', {
                     params: {
                         query: 'cat',
-                        per_page: 9,
+                        per_page: 24,
                         orientation: 'landscape',
                     },
                     headers: {
