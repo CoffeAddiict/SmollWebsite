@@ -4,6 +4,7 @@ import axios from 'axios'
 
 function App() {
     const [catPhotos, setCatPhotos] = useState<UnsplashPhoto[]>([])
+    const [numPictures, setNumPictures] = useState(1)
 
     type UnsplashPhoto = {
         id: string
@@ -40,11 +41,33 @@ function App() {
         fetchCatPhotos()
     }, [])
 
+    useEffect(() => {
+        const handleResize = () => {
+            const screenWidth = window.innerWidth
+            let numPictures
+            if (screenWidth >= 1024) {
+                numPictures = 3
+            } else if (screenWidth >= 768) {
+                numPictures = 2
+            } else {
+                numPictures = 1
+            }
+            setNumPictures(numPictures)
+        }
+
+        window.addEventListener('resize', handleResize)
+        handleResize()
+
+        return () => {
+            window.removeEventListener('resize', handleResize)
+        }
+    }, [])
+
     return (
         <div className="App">
             <h1>Cat Photos</h1>
-            <div className="cat-grid">
-                {catPhotos.map(photo => (
+            <div className={`cat-grid cat-grid-${numPictures}`}>
+                {catPhotos.map((photo: UnsplashPhoto) => (
                     <div key={photo.id} className="cat-photo-container">
                         <img src={photo.urls.regular} alt={photo.alt_description} />
                         <div className="photo-info">
