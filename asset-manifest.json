@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/SmollWebsite/static/css/main.61c4c267.css",
-    "main.js": "/SmollWebsite/static/js/main.e36dc046.js",
+    "main.js": "/SmollWebsite/static/js/main.ed660fe1.js",
     "static/js/787.beea4300.chunk.js": "/SmollWebsite/static/js/787.beea4300.chunk.js",
     "index.html": "/SmollWebsite/index.html",
     "main.61c4c267.css.map": "/SmollWebsite/static/css/main.61c4c267.css.map",
-    "main.e36dc046.js.map": "/SmollWebsite/static/js/main.e36dc046.js.map",
+    "main.ed660fe1.js.map": "/SmollWebsite/static/js/main.ed660fe1.js.map",
     "787.beea4300.chunk.js.map": "/SmollWebsite/static/js/787.beea4300.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.61c4c267.css",
-    "static/js/main.e36dc046.js"
+    "static/js/main.ed660fe1.js"
   ]
 }
