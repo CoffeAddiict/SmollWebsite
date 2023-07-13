@@ -23,7 +23,7 @@
 }
 
 .cat-photo-container {
-  display: flex;
+  display: left;
   flex-direction: column;
   align-items: center;
 }
